@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet"/>
+    <link href="../bower_components/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet"/>
+</head>
+<body ng-app="mod1">
+{{2+2}}
+
+<div ng-controller="mod1Ctrl">
+
+<div class="panel">
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Ident</th>
+            <th>Type</th>
+            <th>From</th>
+            <th>Depart</th>
+            <th>Arrive</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="k in flights">
+            <td>{{k.ident}}</td>
+            <td>{{k.longitude}}</td>
+            <td>{{k.groundspeed}}</td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+    
+{{person}}
+</div>
+
+
+
+<script type="text/javascript" src="../app/mod2.js"></script>
+
+<script type="text/javascript" src="../app/mod1.js"></script>
+</body>
+</html>

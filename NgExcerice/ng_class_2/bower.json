@@ -1,0 +1,21 @@
+{
+  "name": "ng_class_2",
+  "homepage": "https://github.com/poc7667/MeanStackDevelopment",
+  "authors": [
+    "poc <poc7667@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.7"
+  }
+}

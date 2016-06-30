@@ -1,6 +1,7 @@
-# Logs
+#G Logs
 logs
 *.log
+bower_components/
 
 # Runtime data
 pids

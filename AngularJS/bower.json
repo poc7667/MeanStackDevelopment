@@ -1,0 +1,20 @@
+{
+  "name": "AngularJS",
+  "homepage": "https://github.com/decentcamper/MeanStackDevelopment",
+  "authors": [
+    "poc <poc7667@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

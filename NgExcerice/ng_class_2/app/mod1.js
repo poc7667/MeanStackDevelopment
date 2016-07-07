@@ -10,6 +10,7 @@ app.controller("mod1Ctrl", function($scope, $http) {
         });
 
 
+    $scope.instructors = ["vivek", "lory", "andy", "richar"];
 
 
 })

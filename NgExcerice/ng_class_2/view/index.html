@@ -6,7 +6,7 @@
     <link href="../bower_components/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet"/>
 </head>
 <body ng-app="mod1">
-{{2+2}}
+<!-- {{2+2}} -->
 
 <div ng-controller="mod1Ctrl">
 
@@ -19,13 +19,15 @@
         </thead>
         <tbody>
         <tr ng-repeat="flight in flights">
-         <td ng-repeat="(k,v) in flight"> {{v}} </td>
+            <td> {{flight.code}} </td>
+            <td> {{flight.code | getMyFlightCode }} </td>
+            <!-- <td ng-repeat="(k,v) in flight"> {{v}} </td> -->
         </tr>
 
         </tbody>
     </table>
 </div>
-    
+
 {{person}}
 </div>
 

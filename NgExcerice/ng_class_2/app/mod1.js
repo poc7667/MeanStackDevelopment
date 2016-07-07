@@ -13,3 +13,11 @@ app.controller("mod1Ctrl", function($scope, $http) {
 
 
 })
+
+
+app.filter("getMyFlightCode", function(){
+    return function(items, prop){
+        return items.match(/\(.*\)/)[0];
+        // return [];
+    }
+})
